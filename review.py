@@ -17,3 +17,12 @@ for d in data:
 		new.append(d)
 print(len(new))
 print(new[1])
+old = []
+for y in data:
+	if 'good' in y:#if後面接boolean
+		old.append(y)
+print(len(old))
+print(old[0])
+
+
+
